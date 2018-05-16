@@ -1,8 +1,6 @@
 # GCTUIModalPresentationViewController
 
-
-![GCTUIModalPresentationViewController](http://p2qz1unpx.bkt.clouddn.com/GCTUIModalPresentationViewController.gif)
-
+![GCTUIModalPresentationViewController.gif](https://github.com/GCTec/GCTUIModalPresentationViewController/blob/master/IMG_0399.TRIM%203.gif)
 
 基于 `UIViewControllerTransitioningDelegate` 实现的快速配置模态控制器的动画实现方案。
 
