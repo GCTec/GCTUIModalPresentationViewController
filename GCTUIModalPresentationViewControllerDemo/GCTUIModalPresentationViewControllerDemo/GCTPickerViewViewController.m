@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.backViewType = GCTUIModalPresentBackViewTypeDark;
-    self.presentType = GCTUIModalPresentAnimationSlideInFromBottom;
-    self.dismissType = GCTUIModalDismissAnimationSlideOutFromBottom;
+    self.presentAnimation = GCTUIModalPresentAnimationSlideInFromBottom;
+    self.dismissAnimation = GCTUIModalDismissAnimationSlideOutFromBottom;
     self.touchDismissEnable = NO;
     self.observerView = self.contentView;
 }
