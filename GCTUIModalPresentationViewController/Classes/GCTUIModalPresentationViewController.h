@@ -75,12 +75,12 @@ typedef NS_ENUM(NSInteger, GCTUIModalPresentBackViewType) {
 /**
  显示动画类型
  */
-@property (nonatomic, assign) GCTUIModalPresentAnimation presentType;
+@property (nonatomic, assign) GCTUIModalPresentAnimation presentAnimation;
 
 /**
  dismiss 动画类型
  */
-@property (nonatomic, assign) GCTUIModalDismissAnimation dismissType;
+@property (nonatomic, assign) GCTUIModalDismissAnimation dismissAnimation;
 
 /**
  被观察视图

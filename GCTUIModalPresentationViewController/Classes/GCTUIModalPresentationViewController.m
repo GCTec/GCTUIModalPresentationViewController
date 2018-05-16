@@ -134,7 +134,7 @@ static NSInteger const kAnimationOptionCurveIOS7 = (7 << 16);
 #pragma mark - Present
 
 - (void)presentAnimationWithOldFrame:(CGRect)oldFrame Completion:(void (^ __nullable)(BOOL finished))completion {
-    switch (self.presentType) {
+    switch (self.presentAnimation) {
         case GCTUIModalPresentAnimationFadeIn:
             [self presentTypeFadeInWithCompletion:completion];
             break;
@@ -342,7 +342,7 @@ static NSInteger const kAnimationOptionCurveIOS7 = (7 << 16);
 #pragma mark - Dismiss
 
 - (void)dismissAnimationWithCompletion:(void (^ __nullable)(BOOL finished))completion {
-    switch (self.dismissType) {
+    switch (self.dismissAnimation) {
         case GCTUIModalDismissAnimationFadeOut:
             [self dismissTypeFadeOutWithCompletion:completion];
             break;

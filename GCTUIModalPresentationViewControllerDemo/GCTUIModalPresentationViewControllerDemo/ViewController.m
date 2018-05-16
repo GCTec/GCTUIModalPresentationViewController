@@ -85,8 +85,8 @@
 - (IBAction)presentSelfViewObserverViewController:(UIButton *)sender {
     GCTModalPresentationDemoViewController *demoPresentViewController = [[GCTModalPresentationDemoViewController alloc] init];
     demoPresentViewController.backViewType = self.backType;
-    demoPresentViewController.presentType = self.presentAnimation;
-    demoPresentViewController.dismissType = self.dismissAnimation;
+    demoPresentViewController.presentAnimation = self.presentAnimation;
+    demoPresentViewController.dismissAnimation = self.dismissAnimation;
     demoPresentViewController.touchDismissEnable = self.touchDismissEnable;
     demoPresentViewController.obserType = GCTObserverTypeSelfView;
     [self presentViewController:demoPresentViewController animated:YES completion:nil];
@@ -95,8 +95,8 @@
 - (IBAction)presentCustomViewObserverViewController:(UIButton *)sender {
     GCTModalPresentationDemoViewController *demoPresentViewController = [[GCTModalPresentationDemoViewController alloc] init];
     demoPresentViewController.backViewType = self.backType;
-    demoPresentViewController.presentType = self.presentAnimation;
-    demoPresentViewController.dismissType = self.dismissAnimation;
+    demoPresentViewController.presentAnimation = self.presentAnimation;
+    demoPresentViewController.dismissAnimation = self.dismissAnimation;
     demoPresentViewController.touchDismissEnable = self.touchDismissEnable;
     demoPresentViewController.obserType = GCTObserverTypeCustomView;
     [self presentViewController:demoPresentViewController animated:YES completion:nil];
@@ -105,8 +105,8 @@
 - (IBAction)presentInputViewObserverController:(id)sender {
     GCTModalPresentationDemoViewController *demoPresentViewController = [[GCTModalPresentationDemoViewController alloc] init];
     demoPresentViewController.backViewType = self.backType;
-    demoPresentViewController.presentType = self.presentAnimation;
-    demoPresentViewController.dismissType = self.dismissAnimation;
+    demoPresentViewController.presentAnimation = self.presentAnimation;
+    demoPresentViewController.dismissAnimation = self.dismissAnimation;
     demoPresentViewController.touchDismissEnable = self.touchDismissEnable;
     demoPresentViewController.obserType = GCTObserverTypeInputView;
     [self presentViewController:demoPresentViewController animated:YES completion:nil];
